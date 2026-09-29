@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SafeWeb</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>SafeWeb</h1>
+
+        <nav>
+            <button class="ativo" onclick="mostrarInicio(this)">Início</button>
+            <button onclick="mostrarGolpes(this)">Ameaças</button>
+            <button onclick="mostrarProtecao(this)">Defesa</button>
+            <button onclick="mostrarQuiz(this)">Teste</button>
+        </nav>
+    </header>
+
+    <main id="conteudo">
+        <section class="hero">
+            <div class="hero-topo">
+                <span class="secao">SAFEWEB // 01</span>
+                <span class="status">SISTEMA ONLINE</span>
+            </div>
+
+            <div class="hero-conteudo">
+                <div>
+                    <h2>Não seja a próxima vítima.</h2>
+
+                    <p>
+                        Golpes digitais estão cada vez mais convincentes.
+                        Conheça as principais ameaças e aprenda a identificar
+                        sinais de perigo antes que seja tarde.
+                    </p>
+
+                    <div class="acoes">
+                        <button onclick="mostrarGolpes()">
+                            Explorar ameaças
+                        </button>
+
+                        <span class="indicador">01 / 04</span>
+                    </div>
+                </div>
+
+                <div class="painel-destaque">
+                    <span>ALERTA DIGITAL</span>
+
+                    <strong>
+                        PARE.<br>
+                        CONFIRA.<br>
+                        PROTEJA.
+                    </strong>
+
+                    <small>
+                        Segurança começa antes do clique.
+                    </small>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>SafeWeb - Segurança Digital</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
